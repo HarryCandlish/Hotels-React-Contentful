@@ -1,0 +1,16 @@
+import React from "react";
+import Hero from "../components/Hero";
+
+const Home = () => {
+  return (
+    <div>
+      <Hero hero="defaultHero" />
+    </div>
+  );
+};
+
+Hero.defaultProps = {
+  hero: "defaultHero"
+};
+
+export default Home;
